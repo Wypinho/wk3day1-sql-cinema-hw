@@ -55,4 +55,6 @@ INSERT INTO movies (title, year, show_time) VALUES ('Spider-Man: Homecoming', 20
 INSERT INTO movies (title, year, show_time) VALUES ('Thor: Ragnarok', 2017, '21:50');
 INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '19:30');
 
-SELECT * FROM movies;
+-- SELECT * FROM movies;
+-- SELECT name FROM people;
+UPDATE people SET name = 'Cody Abbott' WHERE id = 5;

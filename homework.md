@@ -24,6 +24,7 @@ Use the supplied data as the source of data to answer the questions. Copy the SQ
 
 1.  Return ALL the data in the 'movies' table.
 SELECT * FROM movies;
+
 id |                title                | year | show_time
 ----+-------------------------------------+------+-----------
  1 | Iron Man                            | 2008 | 18:10
@@ -48,8 +49,84 @@ id |                title                | year | show_time
 (19 rows)
 
 2.  Return ONLY the name column from the 'people' table
+SELECT name FROM people;
+
+name        
+--------------------
+Andrew Gray
+Andrew Kirkwood
+Andrew Wyper
+Catherine Hall
+Cosy Abott
+Evan Smith
+Gary Clark
+James Fraser
+James Smith
+Jamie Ryan
+Jen Merritt
+Lauren Brett
+Luca Sanz Charreun
+Matteo Fusillo
+Olivia Wright
+Patrick ONeill
+Ross Cumming
+Sigurd Watt
+Silvia Simonassi
+Stephen Ramsay
+Steve Vance
+(21 rows)
+
 3.  Oops! Someone spelled Cody Abbott's name wrong! Change it to reflect the proper spelling.
+UPDATE people SET name = 'Cody Abbott' WHERE id = 5;
+
+DROP TABLE
+DROP TABLE
+CREATE TABLE
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+UPDATE 1
+
 4.  Return ONLY Olivia Wright's name from the 'people' table.
+
 5.  The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
 6.  We forgot one of the main characters! Add Chris Fraser to the 'people' table
 7.  John Smith has decided to hijack our movie evening, Remove him from the table of people.
